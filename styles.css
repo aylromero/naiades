@@ -308,4 +308,7 @@
            position: relative!important;
            left: 3em!important;
        }
+       .info, .parrafo .lila, .inform {
+           font-size: 1em;
+       }
    }
