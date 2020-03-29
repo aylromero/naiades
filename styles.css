@@ -270,7 +270,7 @@
            background-color: #24145F;
            color: white;
            border: none;
-           padding: none;
+           padding: 0 0 0 0;
            white-space: nowrap;
            position: relative;
            right: 0;
@@ -310,5 +310,8 @@
        }
        .info, .parrafo .lila, .inform {
            font-size: 1em;
+       }
+       .attendance {
+           padding: 0 0 0 0!important;
        }
    }
