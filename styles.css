@@ -1,0 +1,270 @@
+   @import url('https://fonts.googleapis.com/css?family=Titillium+Web:700|Work+Sans:600&display=swap');
+   @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+   body, #bodyTable, #bodyCell, p {
+       height: 100% !important;
+       margin: 0;
+       padding: 0;
+       width: 100% !important;
+       font-family: 'Open Sans', sans-serif;
+   }
+   p, strong, button {
+       font-family: 'Roboto', sans-serif;
+   }
+   .logo {
+       padding-bottom: 3.5em;
+       padding-left: 1.5em;
+       position: relative;
+       top: 0;
+       right: 0;
+   }
+   table {
+       border-collapse: collapse;
+   }
+   img, a img {
+       border: 0;
+       outline: none;
+       text-decoration: none;
+   }
+   h1, h2, h3, h4, h5, h6 {
+       margin: 0;
+       padding: 0;
+       font-weight: bold;
+   }
+   p {
+       margin: 1em 0;
+   }
+   .column {
+       background-color: #F4F4F4;
+       padding-left: 5em;
+       padding-right: 3em;
+   }
+   .column p {
+       font-size: 1em;
+       font-weight: bold;
+   }
+   .attendance {
+       background-color: #24145F;
+       color: white;
+       border: none;
+       padding: 0.6em 2em 0.6em 2em;
+       white-space: nowrap;
+       position: relative;
+       right: 3em;
+   }
+   .date {
+       color: #24145F;
+       font-weight: bold;
+       white-space: nowrap;
+       position: relative;
+       right: 2em;
+   }
+   #tbd {
+       margin-top: -1em;
+       color: black!important;
+       font-weight: bold!important;
+       position: relative;
+       left: 1em;
+   }
+   .ReadMsgBody {
+       width: 100%;
+   }
+   .ExternalClass {
+       width: 100%;
+   }
+   /* Force Hotmail/Outlook.com to display emails at full width. */
+
+   .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {
+       line-height: 100%;
+   }
+   /* Force Hotmail/Outlook.com to display line heights normally. */
+
+   table, td {
+       mso-table-lspace: 0pt;
+       mso-table-rspace: 0pt;
+   }
+   /* Remove spacing between tables in Outlook 2007 and up. */
+
+   #outlook a {
+       padding: 0;
+   }
+   /* Force Outlook 2007 and up to provide a "view in browser" message. */
+
+   img {
+       -ms-interpolation-mode: bicubic;
+   }
+   /* Force IE to smoothly render resized images. */
+
+   body, table, td, p, a, li, blockquote {
+       -ms-text-size-adjust: 100%;
+       -webkit-text-size-adjust: 100%;
+   }
+   /* Prevent Windows- and Webkit-based mobile platforms from changing declared text sizes. */
+
+   /*////// FRAMEWORK STYLES //////*/
+
+   .flexibleContainerCell {
+       padding-right: 20px;
+       padding-left: 20px;
+       padding-bottom: 2em;
+       padding-top: 1.5em;
+       background-color: #65449A;
+       color: white;
+   }
+   .flexibleContainerCell3 {
+       padding-left: 20px;
+   }
+   .parrafo {
+       padding-top: 2em;
+       padding-right: 0.5em;
+   }
+   .flexibleContainerCell2 {
+       padding-top: 0;
+       padding-right: 0;
+       padding-left: 20px;
+   }
+   .flexibleImage {
+       height: auto;
+   }
+   .bottomShim {
+       padding-bottom: 20px;
+   }
+   .nestedContainerCell {
+       padding-top: 20px;
+       padding-right: 20px;
+       padding-left: 20px;
+   }
+   /*////// GENERAL STYLES //////*/
+
+   body, #bodyTable {
+       background-color: #F5F5F5;
+   }
+   #bodyCell {
+       padding-top: 40px;
+       padding-bottom: 40px;
+   }
+   #emailBody {
+       background-color: #FFFFFF;
+       border: 1px solid #DDDDDD;
+       border-collapse: separate;
+       border-radius: 4px;
+   }
+   h1 {
+       font-size: 3em!important;
+   }
+   h1, h2, h3, h4, h5, h6 {
+       line-height: 125%;
+       font-family: 'Work Sans', sans-serif;
+       font-weight: bold;
+   }
+   .highlight {
+       background-color: #3d286b;
+       padding: 5px;
+       padding-left: 1em;
+       padding-right: 1em;
+   }
+   .subtit {
+       font-size: 16px;
+       line-height: 125%;
+       padding-left: 35px;
+       text-transform: uppercase;
+       padding-bottom: 1em;
+   }
+   .textContent, .textContentLast {
+       font-size: 16px;
+       line-height: 125%;
+       text-align: Left;
+       padding-bottom: 20px;
+       padding-left: 35px;
+   }
+   .textContent a, .textContentLast a {
+       text-decoration: underline;
+   }
+   .nestedContainer {
+       background-color: #E5E5E5;
+       border: 1px solid #CCCCCC;
+   }
+   .violeta {
+       background: #231560;
+   }
+   .parrafoV {
+       color: white;
+       font-size: 0.9em;
+       padding-right: 1em;
+   }
+   .parrafoBlanco {
+       background-color: white;
+   }
+   #center {
+       display: flex;
+       justify-content: center;
+       font-size: 1.8em;
+       padding: 0.6em 0.6em 0.6em 0.6em;
+   }
+   .lorem {
+       color: #2C1F63;
+       font-weight: bold;
+       padding-left: 0.3em;
+   }
+   .purple {
+       padding-left: 0.3em;
+       color: #817AA1;
+   }
+   .lila {
+       background-color: #7D55B5;
+       color: white;
+       padding-bottom: 1.5em;
+   }
+   .info {
+       text-transform: uppercase;
+   }
+   .inform {
+       margin-top: -1em;
+   }
+   a {
+       text-decoration: none;
+       color: #24145F;
+       font-weight: bold;
+   }
+   /*////// MOBILE STYLES //////*/
+
+   @media only screen and (max-width: 480px) {
+       /*////// CLIENT-SPECIFIC STYLES //////*/
+       body {
+           width: 100% !important;
+           min-width: 100% !important;
+       }
+       /* Force iOS Mail to render the email at full width. */
+       /*////// FRAMEWORK STYLES //////*/
+       table[id="emailBody"], table[class="flexibleContainer"] {
+           width: 100% !important;
+       }
+       img[class="flexibleImage"] {
+           height: auto !important;
+           width: 100% !important;
+       }
+       table[class="emailButton"] {
+           width: 100% !important;
+       }
+       td[class="buttonContent"] {
+           padding: 0 !important;
+       }
+       td[class="buttonContent"] a {
+           padding: 15px !important;
+       }
+       td[class="textContentLast"], td[class="imageContentLast"] {
+           padding-top: 20px !important;
+       }
+       /*////// GENERAL STYLES //////*/
+       td[id="bodyCell"] {
+           padding-top: 10px !important;
+           padding-Right: 10px !important;
+           padding-Left: 10px !important;
+       }
+       .column {
+           padding-left: 0em;
+           padding-right: 0em;
+       }
+       .date {
+           font-size: 1em;
+       }
+   }
