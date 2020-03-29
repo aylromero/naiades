@@ -94,7 +94,7 @@
        padding-left: 20px;
        padding-bottom: 2em;
        padding-top: 1.5em;
-       background-color: #65449A;
+       background-image: url(img/portada.jpg);
        color: white;
    }
    .flexibleContainerCell3 {
@@ -261,7 +261,7 @@
            font-size: 0.9em;
            font-weight: bold;
            text-align: center;
-           margin-left: 2.3em;
+           margin-left: 2.8em;
        }
        .calendar {
            margin-left: 2em;
@@ -274,7 +274,7 @@
            white-space: nowrap;
            position: relative;
            right: 0;
-           margin-left: 0;
+           margin-left: 2.8em;
        }
        #tbd {
            margin-top: -1em;
@@ -313,5 +313,9 @@
        }
        .attendance {
            padding: 0 0 0 0!important;
+           margin-left: 3em;
+       }
+       .column p {
+           margin-left: 3em;
        }
    }
