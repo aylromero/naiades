@@ -36,7 +36,8 @@
    .column {
        background-color: #F4F4F4;
        padding-left: 5em;
-       padding-right: 3em;
+       padding-right: 3em!important;
+       margin-bottom: 2em;
    }
    .column p {
        font-size: 1em;
@@ -71,37 +72,23 @@
    .ExternalClass {
        width: 100%;
    }
-   /* Force Hotmail/Outlook.com to display emails at full width. */
-
    .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {
        line-height: 100%;
    }
-   /* Force Hotmail/Outlook.com to display line heights normally. */
-
    table, td {
        mso-table-lspace: 0pt;
        mso-table-rspace: 0pt;
    }
-   /* Remove spacing between tables in Outlook 2007 and up. */
-
    #outlook a {
        padding: 0;
    }
-   /* Force Outlook 2007 and up to provide a "view in browser" message. */
-
    img {
        -ms-interpolation-mode: bicubic;
    }
-   /* Force IE to smoothly render resized images. */
-
    body, table, td, p, a, li, blockquote {
        -ms-text-size-adjust: 100%;
        -webkit-text-size-adjust: 100%;
    }
-   /* Prevent Windows- and Webkit-based mobile platforms from changing declared text sizes. */
-
-   /*////// FRAMEWORK STYLES //////*/
-
    .flexibleContainerCell {
        padding-right: 20px;
        padding-left: 20px;
@@ -116,6 +103,9 @@
    .parrafo {
        padding-top: 2em;
        padding-right: 0.5em;
+   }
+   .parrafoFooter {
+       font-size: 0.7em;
    }
    .flexibleContainerCell2 {
        padding-top: 0;
@@ -133,8 +123,6 @@
        padding-right: 20px;
        padding-left: 20px;
    }
-   /*////// GENERAL STYLES //////*/
-
    body, #bodyTable {
        background-color: #F5F5F5;
    }
@@ -225,16 +213,17 @@
        color: #24145F;
        font-weight: bold;
    }
-   /*////// MOBILE STYLES //////*/
-
-   @media only screen and (max-width: 480px) {
-       /*////// CLIENT-SPECIFIC STYLES //////*/
+   .video {
+       width: 290px;
+       height: 190px;
+       margin-right: 1.5em;
+       padding-bottom: 4em;
+   }
+   @media only screen and (max-width: 620px) {
        body {
            width: 100% !important;
            min-width: 100% !important;
        }
-       /* Force iOS Mail to render the email at full width. */
-       /*////// FRAMEWORK STYLES //////*/
        table[id="emailBody"], table[class="flexibleContainer"] {
            width: 100% !important;
        }
@@ -254,7 +243,6 @@
        td[class="textContentLast"], td[class="imageContentLast"] {
            padding-top: 20px !important;
        }
-       /*////// GENERAL STYLES //////*/
        td[id="bodyCell"] {
            padding-top: 10px !important;
            padding-Right: 10px !important;
@@ -263,8 +251,52 @@
        .column {
            padding-left: 0em;
            padding-right: 0em;
+           position: relative;
+           right: 0;
        }
        .date {
            font-size: 1em;
+       }
+       .column p {
+           font-size: 0.9em;
+           font-weight: bold;
+           text-align: center;
+           margin-left: 2.3em;
+       }
+       .calendar {
+           margin-left: 4em;
+       }
+       .attendance {
+           background-color: #24145F;
+           color: white;
+           border: none;
+           padding: none;
+           white-space: nowrap;
+           position: relative;
+           right: 0;
+           margin-left: 2em;
+       }
+       #tbd {
+           margin-top: -1em;
+           color: black!important;
+           font-weight: bold!important;
+           margin-left: -0.8em;
+       }
+       #center {
+           font-size: 1em;
+       }
+       .parrafo {
+           font-size: 1em;
+       }
+       .video {
+           height: 100px;
+           width: 160px;
+       }
+       h1 {
+           font-size: 2em!important;
+       }
+       .logo {
+           height: 100px!important;
+           width: 105px!important;
        }
    }
