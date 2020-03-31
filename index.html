@@ -265,7 +265,7 @@
        margin-right: 35px;
        padding-bottom: 55px;
    }
-   @media only screen and (max-width: 690px) {
+   @media only screen and (max-width: 680px) {
        body {
            width: 100% !important;
            min-width: 100% !important;
@@ -304,13 +304,13 @@
            font-size: 1em;
        }
        .column p {
-           font-size: 0.9em;
+           font-size: 0.7em;
            font-weight: bold;
            text-align: center;
            margin-left: 2.8em;
        }
        .calendar {
-           margin-left: 2em;
+           margin-left: 5em!important;
        }
        .attendance {
            background-color: #24145F;
@@ -321,6 +321,10 @@
            position: relative;
            right: 0;
            margin-left: 2.8em;
+           max-width: 100%;
+           font-size: 0.8em;
+           width: 135px;
+
        }
        #tbd {
            margin-top: -1em;
@@ -332,7 +336,7 @@
            font-size: 1em;
        }
        .parrafo {
-           font-size: 1em;
+           font-size: 0.8em;
        }
        .video {
            height: 100px;
@@ -346,9 +350,10 @@
            width: 105px!important;
        }
    }
-   @media only screen and (max-width: 490px) {
+   @media only (min-width: 320px) and (max-width: 490px) {
        .parrafo {
-           font-size: 0.6em;
+           font-size: 0.4em;
+
        }
        .calendar {
            position: relative!important;
@@ -360,6 +365,7 @@
        .attendance {
            padding: 0 0 0 0!important;
            margin-left: 3em;
+           max-width: 100%;
        }
        .column p {
            margin-left: 3em;
