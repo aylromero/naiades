@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ical.marudot.com//iCal Event Maker
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:America/Guatemala
+TZURL:http://tzurl.org/zoneinfo-outlook/America/Guatemala
+X-LIC-LOCATION:America/Guatemala
+BEGIN:STANDARD
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20200406T212743Z
+UID:20200406T212743Z-1649599172@marudot.com
+DTSTART;TZID=America/Guatemala:20200414T150000
+DTEND;TZID=America/Guatemala:20200414T160000
+SUMMARY:Webex | Enables people to meet and collaborate remotely\, driving productivity.
+URL:https%3A%2F%2Fwestcongrouplatam.webex.com%2Fmeet%2Fdoraro
+DESCRIPTION:3:00 Pm - CENTRO AMERICA\n4:00 Pm - PANAMA\n5:00 Pm - MIAMI
+LOCATION:https://westcongrouplatam.webex.com/meet/doraro
+END:VEVENT
+END:VCALENDAR
